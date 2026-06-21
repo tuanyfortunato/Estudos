@@ -1,0 +1,30 @@
+# Variáveis de ambiente
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Projeto
+.DS_Store
+.env.example
+.devin/config.local.json
+_debug_out.txt
+_smoke_out.txt
+debug_report.md

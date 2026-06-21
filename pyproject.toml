@@ -1,0 +1,17 @@
+[project]
+name = "ai-studies"
+version = "1.0.0"
+description = "Estudos de agentes de IA (Google Gemini) com Clean Architecture e FastAPI."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
