@@ -9,20 +9,6 @@ Inclui dois casos de uso:
 2. **Agente de inventário** com **Function Calling** automático e **sessões com
    estado** (histórico de conversa por `session_id`).
 
-## Documentação
-
-A pasta [`docs/`](docs/README.md) contém guias didáticos detalhados, pensados para quem está
-aprendendo Python e Clean Architecture com este projeto:
-
-- [**Documentação (índice)**](docs/README.md) — ponto de partida e ordem de leitura sugerida.
-- [**Python para quem vem de C#**](docs/PYTHON_PARA_DEV_CSHARP.md) — fundamentos da linguagem,
-  com comparações lado a lado C# ↔ Python.
-- [**Arquitetura**](docs/ARQUITETURA.md) — camadas, decisões de design e o "porquê" da estrutura.
-- [**Passo a passo de uma requisição**](docs/PASSO_A_PASSO_ENDPOINT.md) — o fluxo de execução
-  camada por camada, do endpoint ao adapter.
-- [**Mais conceitos de Python**](docs/MAIS_CONCEITOS_PYTHON.md) — conceitos adicionais usados no
-  código (`with`, threading/GIL, Pydantic, fixtures e mais).
-
 ## Arquitetura
 
 O código segue Clean Architecture, com dependências sempre apontando para
